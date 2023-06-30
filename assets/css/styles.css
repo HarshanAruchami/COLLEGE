@@ -39,7 +39,7 @@ body {
 
 .main-content {
     background-color: #b2b3b5;
-    padding-bottom: 120px;
+    padding-bottom: 60px;
 }
 
 .main-content b {
@@ -56,27 +56,110 @@ body {
 }
 
 #row2 b {
-    margin-left: 3em;
+    margin-left: 2.7em;
 }
 
 #row2 p {
-    margin-left: 6.4em;
-    margin-right: 3em;
+    margin-left: 6em;
+    margin-right: 4em;
 }
 
-#banner-2{
+/* ================
+   BANNER-2
+   ================*/
+#banner-2 {
     background-image: url(../images/banner_2.jpg);
-    background-position: left;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 350px 0 200px;
     position: relative;
     z-index: 0;
+    margin-top: 47px;
 }
 
 .banner-2 #content-img-2 {
     position: absolute;
-    margin-top: -70px;
+    margin-top: -100px;
     z-index: 1;
     color: #978f8f;
+}
+
+.banner-2 b {
+    font-size: 35px;
+}
+
+/* =================
+   CAROUSEL
+   ================= */
+
+.carousel {
+    background-color: black;
+}
+
+.carousel .container {
+    padding: 75px 0;
+}
+
+.carousel b {
+    font-size: 39px;
+    color: #978f8f;
+}
+
+.carousel span {
+    font-size: 18px;
+    color: #978f8f;
+}
+
+.carousel-control-prev {
+    margin-left: -100px;
+}
+
+#carouselExampleControls {
+    width: 85%;
+}
+
+/* =================
+    BANNER-3
+   =================*/
+
+.banner-3 {
+    background-image: url(../images/banner_3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 110px 0 350px;
+    position: relative;
+    z-index: 0;
+}
+
+.banner-3 span {
+    font-size: 24px;
+    color: #978f8f;
+}
+
+.banner-3 h5 {
+    font-size: 22px;
+    font-weight: lighter;
+    color: #978f8f;
+}
+
+#content-img-3 {
+    margin-top: 100px;
+    position: absolute;
+    z-index: 1;
+}
+
+em {
+    color: #978f8f;
+}
+
+.banner-3 em:before,
+.banner-3 em::after {
+    display: inline-block;
+    content: "";
+    border-top: .10rem solid #978f8f;
+    width: 4rem;
+    margin: 0 1rem;
+    transform: translateY(0rem);
 }
